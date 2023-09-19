@@ -1,0 +1,22 @@
+/*
+   Form Styles
+   Define styles for form elements in your application.
+*/
+
+.form-input {
+  @include padding-y(10px);
+  @include padding-x(15px);
+  @include font-size($base-font-size);
+  border: 1px solid #ccc;
+  border-radius: $border-radius;
+}
+
+.form-button {
+  @include button-styles;
+}
+
+.form-label {
+  @include font-size($small-font-size);
+  @include font-weight($font-weight-bold);
+  @include text-color($text-color);
+}

@@ -1,0 +1,15 @@
+/*
+   Footer Styles
+   Define styles for the footer in your application.
+*/
+
+.footer {
+  @include padding-y(20px);
+  background-color: $secondary-color;
+}
+
+.footer-text {
+  @include font-size($small-font-size);
+  @include font-weight($font-weight-regular);
+  @include text-color(#fff);
+}

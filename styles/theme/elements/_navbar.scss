@@ -1,0 +1,18 @@
+/*
+   Navbar Styles
+   Define styles for the navigation bar in your application.
+*/
+
+.navbar {
+  @include padding-y(15px);
+  background-color: $primary-color;
+}
+
+.nav-link {
+  @include margin-x(20px);
+  @include font-size($base-font-size);
+  @include font-weight($font-weight-medium);
+  @include text-color(#fff);
+  text-decoration: none;
+  cursor: pointer;
+}

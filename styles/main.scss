@@ -1,0 +1,15 @@
+/* main.scss */
+
+// Import global variables
+@import '_variables';
+
+// Import mixins
+@import 'theme/mixins/_spacing';
+@import 'theme/mixins/_text';
+@import 'theme/mixins/_responsive';
+
+// Import element-specific styles
+@import 'theme/elements/_buttons';
+@import 'theme/elements/_forms';
+@import 'theme/elements/_navbar';
+@import 'theme/elements/_footer';

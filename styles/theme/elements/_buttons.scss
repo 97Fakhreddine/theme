@@ -1,0 +1,26 @@
+/*
+   Button Styles
+   Define styles for buttons in your application.
+*/
+
+.button {
+  @include padding-y(10px);
+  @include padding-x(20px);
+  @include margin-right(10px);
+  @include font-size($small-font-size);
+  @include font-weight($font-weight-bold);
+  @include text-color($text-color);
+  background-color: $primary-color;
+  border: none;
+  border-radius: $border-radius;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.secondary-button {
+  @include button-styles;
+  background-color: $secondary-color;
+}
